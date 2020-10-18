@@ -1,0 +1,159 @@
+body {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.logohistory{
+    width: 180px;
+    height: 40px;
+}
+
+
+.navbar {
+    background-color: #ffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .05);
+    min-height: 100px;
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: crimson;
+}
+
+
+.navbar-toggler {
+    font-size: 35px;
+}
+
+.navbar-toggler:focus{
+    outline:none
+    
+}
+
+.iconodetails{
+    width: 75px;
+    margin:auto;
+    text-align: center;
+}
+
+.nav-user{
+    display: block;
+    padding-top: 8;
+    color: crimson;
+}
+
+
+.carousel-item img {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;;
+}
+
+/*Estilos Bloque dos*/
+.btn-primary {
+    background-color: #000000;
+    transition: all .5s ease;
+    border-color: black;
+}
+
+.btn-primary:hover{
+    background: crimson;
+    color: #ffff;
+    border-color: crimson;
+
+}
+
+.historia {
+    font-size: 18px;
+}
+
+#titulo {
+  font-family: 'Patua One', cursive;
+    
+}
+
+/*Seccion imagenes*/
+.contenedor {
+    background: black;
+}
+
+
+.imagenes-container {
+
+position: relative;
+overflow: hidden;
+margin: 10px 0;
+border-radius: 10px;
+
+}
+
+.imagenes-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+
+.imagenes-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform: scale(1.2);
+}
+
+.imagenes-details{
+    position: absolute;
+    bottom: 25px;
+    left: 28px;
+    z-index: 100;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.719);
+  
+    
+}
+/* Form */
+#botonform {
+    color: white;
+    background-color: #000000;
+    transition: all .5s ease;
+    border-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+#botonform:hover {
+    cursor: pointer;
+    background-color: crimson;
+    color: #ffffff;
+    border-color: crimson;
+}
+
+
+
+
+/*footer*/
+footer {
+    margin-top: 200px;
+    padding: 90px 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+footer a {
+    color: white;
+    
+}
+
+footer a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
