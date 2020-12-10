@@ -1,4 +1,14 @@
 
+/*de almacenamiento web)
+nos permite almacenar datos de manera local en el navegador y sin necesidad de realizar alguna conexión a una base de datos.
+
+localStorage almacena la información de forma indefinida o hasta que se decida limpiar los datos del navegador
+
+
+
+*/
+
+
 
 var login1 = document.getElementById("login1")
 var login2 = document.getElementById("login2")
@@ -35,8 +45,7 @@ function show2() {
 
 
 }
-
-
+//get item tomar, o recuperar dato
 if(localStorage.getItem('name')){
     loginUser.innerHTML = localStorage.getItem('name');
 }
@@ -55,6 +64,7 @@ function iniciarSesion(){
 
 
 
+//set item guardar dato
     localStorage.setItem('name', usuario)
 
     //innerHTML sirve para "escribir dentro de un elemento HTML"
@@ -65,6 +75,7 @@ function iniciarSesion(){
 
 function cerraSesion() {
     loginUser.innerHTML= " ";
+    //Limpiar todo el Storage
     localStorage.clear();
 }
 
